@@ -29,6 +29,16 @@
 ## 一键安装 Caddy+PHP7+Sqlite3 环境
 #### 1.解析好域名 2.执行以下命令
 #### 3.提示：支持IPv6（AAAA记录）如果本地网络不支持IPv6可以通过cloudflareCDN转换为IP4
+
+##Caddy
+···
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
+#备用地址
+wget -N --no-check-certificate https://www.moerats.com/usr/shell/Caddy/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
+···
+
+##V2
+
 ```
 wget -N --no-check-certificate git.io/c.sh && chmod +x c.sh && bash c.sh
 ```
